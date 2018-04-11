@@ -14,115 +14,60 @@
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="path/to/my-app.css">
   </head>
-  <body>
-    <!-- App root element -->
-    <div id="app">
-      <!-- Statusbar overlay -->
-      <div class="statusbar"></div>
-
-      <!-- Your main view, should have "view-main" class -->
-      <div class="view view-main">
-        <!-- Initial Page, "data-name" contains page name -->
-        <div data-name="home" class="page">
-
-          <!-- Top Navbar -->
-          <div class="navbar">
-            <div class="navbar-inner">
-              <div class="title">Awesome App</div>
-            </div>
-          </div>
-
-          <!-- Toolbar -->
-          <div class="toolbar">
-            <div class="toolbar-inner">
-              <!-- Toolbar links -->
-              <a href="#" class="link">Link 1</a>
-              <a href="#" class="link">Link 2</a>
-            </div>
-          </div>
-
-          <!-- Scrollable page content -->
-          <div class="page-content">
-            <p>Page content goes here</p>
-            <!-- Link to another page -->
-            <a href="/about/">About app</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-    
-    
-    <div class="display-flex">
-  <div>Hello</div>
-  <div>World!</div>
-</div>
-    
-    <div class="display-flex justify-content-space-between align-items-flex-start">
-  <div class="flex-shrink-0">Item 1</div>
-  <div class="align-self-center">Item 2</div>
-  <div class="align-self-flex-end">Item 3</div>
-</div>
-    
-    
-    <p class="text-align-center">Center aligned text</p>
-<p class="text-align-right">Right aligned text</p>
-    
-    <p class="text-align-center">Center aligned text</p>
-<p class="text-align-right">Right aligned text</p>
-    
-    <div class="float-left">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda earum tempora, voluptatem quas? Beatae cumque, ea porro, eius sed nemo impedit tempora nesciunt, nam necessitatibus quis animi. Nobis, dicta, sit!</p>
-</div>
-<div class="float-right">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda earum tempora, voluptatem quas? Beatae cumque, ea porro, eius sed nemo impedit tempora nesciunt, nam necessitatibus quis animi. Nobis, dicta, sit!</p>
-</div>
-    
-    
-    <h1><p align="center" style="h1">Привет!</p></h1>
+  <body>    
+<h1><p align="center" style="h1">Привет!</p></h1>
 <h3><p align="center">Расскажи нам о себе:</p></h3>
    
 <div class="input-group mb-3">
    <div class="input-group-prepend">
       <label class="input-group-text" for="inputGroupSelect01">Родной язык</label>
-   </div>
-   <select class="custom-select" id="inputGroupSelect01">
-    <option selected>Выбрать язык...</option>
-    <option value="1">Английский</option>
-    <option value="2">Испанский</option>
-    <option value="3">Итальянский</option>
-    <option value="4">Немецкий</option>
-    <option value="5">Русский</option>
-    <option value="6">Французский</option>
-   </select>
-</div>
+     <!-- Default Setup -->
+<li>
+  <a class="item-link smart-select smart-select-init">
+    <select name="Язык">
+      <option value="1">Английский</option>
+      <option value="2">Испанский</option>
+      <option value="3">Итальянский</option>
+      <option value="4">Немецкий</option>
+      <option value="5">Русский</option>
+      <option value="6">Французский</option>
+    </select>
+    <div class="item-content">
+      <div class="item-inner">
+        <div class="item-title">Выбрать язык</div>
+      </div>
+    </div>
+  </a>
+</li>
+     
    
 <div class="input-group mb-3">
   <div class="input-group-prepend">
     <label class="input-group-text" for="inputGroupSelect01">Хочу   учить</label>
-  </div>
-  <select class="custom-select" id="inputGroupSelect01">
-    <option selected>Выбрать язык...</option>
-    <option value="1">Английский</option>
-    <option value="2">Испанский</option>
-    <option value="3">Итальянский</option>
-    <option value="4">Немецкий</option>
-    <option value="5">Русский</option>
-    <option value="6">Французский</option>
-  </select>
-</div>
+   <a class="item-link smart-select smart-select-init">
+     <!-- Default Setup -->
+<li>
+  <a class="item-link smart-select smart-select-init">
+    <select name="Язык">
+      <option value="1">Английский</option>
+      <option value="2">Испанский</option>
+      <option value="3">Итальянский</option>
+      <option value="4">Немецкий</option>
+      <option value="5">Русский</option>
+      <option value="6">Французский</option>
+    </select>
+    <div class="item-content">
+      <div class="item-inner">
+        <div class="item-title">Выбрать язык</div>
+      </div>
+    </div>
+  </a>
+</li>
+  
   
 <form action="index2.html">
    <p align="center"><input type="submit" class="btn btn-primary" name="next" value="Начать учить"></p>
 </form>
-    
-    
-    
-    
-    <p class="padding-left">Text with left padding</p>
-<p class="padding-right">Text with right padding</p>
-    
     
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="path/to/framework7.min.js"></script>
