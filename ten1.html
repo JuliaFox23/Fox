@@ -12,9 +12,10 @@
     <!-- Path to Framework7 Library CSS -->
     <link rel="stylesheet" href="path/to/framework7.min.css">
     <!-- Path to your custom app styles-->
-    <link rel="stylesheet" href="path/to/my-app.css">
+    <!-- <link rel="stylesheet" href="path/to/my-app.css"> -->
   </head>
-  <body>    
+  <body>
+    
 <h1><p align="center" style="h1">Привет!</p></h1>
 <h3><p align="center">Расскажи нам о себе:</p></h3>
    
@@ -68,8 +69,31 @@
 </form>
     
     <!-- Path to Framework7 Library JS-->
-    <script type="text/javascript" src="path/to/framework7.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/framework7/2.2.0/js/framework7.min.js"></script>
     <!-- Path to your app js-->
-    <script type="text/javascript" src="path/to/my-app.js"></script>
+    <!-- <script type="text/javascript" src="path/to/my-app.js"></script> -->
+    <script type="text/javascript">
+      var app = new Framework7({
+        // App root element
+        root: '#app',
+        // App Name
+        name: 'My App',
+        // App id
+        id: 'com.myapp.test',
+        // Enable swipe panel
+        panel: {
+          swipe: 'left',
+        },
+        // Add default routes
+        // routes: [
+        //   {
+        //     path: '/about/',
+        //     url: 'about.html',
+        //   },
+        // ],
+        // ... other parameters
+      });
+      var mainView = app.views.create('.view-main');
+    </script>
   </body>
 </html>
