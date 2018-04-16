@@ -25,28 +25,12 @@
         <!-- Initial Page, "data-name" contains page name -->
         <div data-name="home" class="page">
           
-          
-          <!-- Slider container -->
-<div class="swiper-container swiper-init demo-swiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    <div class="swiper-slide">Slide 4</div>
-    <div class="swiper-slide">Slide 5</div>
-    <div class="swiper-slide">Slide 6</div>
-    <div class="swiper-slide">Slide 7</div>
-    <div class="swiper-slide">Slide 8</div>
-    <div class="swiper-slide">Slide 9</div>
-    <div class="swiper-slide">Slide 10</div>
-  </div>
-</div>
 
           <!-- Top Navbar -->
 <div class="navbar">
   <div class="navbar-inner">
     <!-- Additional "sliding" class -->
-    <div class="title sliding">Привет!</div>
+    <div class="title sliding">Привет! Расскажи нам о себе:</div>
   </div>
 </div>   
           <!-- Top Navbar -->
@@ -97,7 +81,7 @@
         id: 'com.myapp.test',
         // Enable swipe panel
         panel: {
-          swipe: 'left',
+          swipe: 'title',
         },
         // Add default routes
         // routes: [
@@ -111,10 +95,6 @@
      
 
       var mainView = app.views.create('.view-main');
-            var swiper = app.swiper.create('.swiper-container', {
-    speed: 400,
-    spaceBetween: 100
-});
     </script>
   </body>
 </html>
