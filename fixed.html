@@ -24,6 +24,20 @@
       <div class="view view-main">
         <!-- Initial Page, "data-name" contains page name -->
         <div data-name="home" class="page">
+          
+          
+          <!-- Slider container -->
+<div class="swiper-container">
+    <!-- Slides wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+    </div>
+    <!-- Pagination, if required -->
+    <div class="swiper-pagination"></div>
+</div>
 
           <!-- Top Navbar -->
 <div class="navbar">
@@ -91,6 +105,11 @@
         // ],
         // ... other parameters
       });
+      
+      var swiper = app.swiper.create('.swiper-container', {
+    speed: 400,
+    spaceBetween: 100
+});
 
       var mainView = app.views.create('.view-main');
     </script>
