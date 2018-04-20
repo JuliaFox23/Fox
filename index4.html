@@ -61,8 +61,8 @@
 <li class="list-group-item d-flex justify-content-between align-items-center">
  Тематики
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  <span class="badge badge-light">15 тематик</span>
+<button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenter">
+  15 тематик
 </button>
 
 <!-- Modal -->
@@ -76,22 +76,26 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
+      <form>
         <section class="form-block">
             <div class="form-group">
+               <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Искусство</label>
+               </div>
                 <div class="checkbox">
-                    <p align="center"><input type="checkbox" id="checkrads_1">
-                       <label for="checkrads_1">Путешествия</label></p>
+                    <input type="checkbox" id="checkrads_1">
+                       <label for="checkrads_1">Путешествия</label>
                 </div>
                 <div class="checkbox">
-                    <p align="center"><input type="checkbox" id="checkrads_2" checked>
-                       <label for="checkrads_2">Транспорт</label></p>
+                    <input type="checkbox" id="checkrads_2" checked>
+                       <label for="checkrads_2">Транспорт</label>
                 </div>
-               <div class="checkbox">
-                    <p align="center"><input type="checkbox" id="checkrads_3" checked>
-                    <label for="checkrads_3">Музыка</label></p>
+                <div class="checkbox">
+                    <input type="checkbox" id="checkrads_3" checked>
+                      <label for="checkrads_3">Музыка</label>
                 </div>
-               </section>
+           </section>
      </form>
       </div>
       <div class="modal-footer">
