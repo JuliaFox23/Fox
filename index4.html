@@ -66,7 +66,7 @@
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -76,7 +76,23 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <form>
+        <section class="form-block">
+            <div class="form-group">
+                <div class="checkbox">
+                    <input type="checkbox" id="checkrads_1">
+                       <label for="checkrads_1">Путешествия</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="checkrads_2" checked>
+                       <label for="checkrads_2">Транспорт</label>
+                </div>
+               <div class="checkbox">
+                    <input type="checkbox" id="checkrads_3" checked>
+                    <label for="checkrads_3">Музыка</label>
+                </div>
+               </section>
+     </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
