@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	   <style type="text/css">
-		   .carousel .item{
+		   .carousel-item{
 	background: #333;    
   text-align: center;
   height: 300px !important;
@@ -37,30 +37,36 @@
   <div class="carousel-inner">
     <!-- Слайд 1 -->
     <div class="carousel-item active">
-    	<h3>journey</h3>
-	<hr class="my-4">
-	<p>путешествие</p>
-	<button type="button" class="btn btn-default">
-  		<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-	</button>
+		<div class="carousel-caption d-none d-md-block">
+    			<h3>journey</h3>
+			<hr class="my-4">
+			<p>путешествие</p>
+			<button type="button" class="btn btn-default">
+  				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+			</button>
+    		</div>
     </div>
     <!-- Слайд 2 -->
     <div class="carousel-item">
-    	<h3>library</h3>
-	<hr class="my-4">
-	<p>библиотека</p>
-	<button type="button" class="btn btn-default">
-  		кнопка
-	</button>
+	<div class="carousel-caption d-none d-md-block">
+    		<h3>library</h3>
+		<hr class="my-4">
+		<p>библиотека</p>
+		<button type="button" class="btn btn-default">
+  			кнопка
+		</button>
+	 </div>
     </div>
 	  <!-- Слайд 3 -->
     <div class="carousel-item">
-    	<h3>event</h3>
-	<hr class="my-4">
-	<p>событие</p>
-	<button type="button" class="btn btn-primary">
-   <span class="\2714"></span>
-</button>
+	    <div class="carousel-caption d-none d-md-block">
+    		<h3>event</h3>
+		<hr class="my-4">
+		<p>событие</p>
+		<button type="button" class="btn btn-primary">
+   			<span class="\2714"></span>
+		</button>
+	   </div>
     </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
